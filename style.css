@@ -192,6 +192,7 @@ grid-template-columns: repeat(4,1fr);
         width: 350px;
         height: 438px;
         align-items: center;
+        margin: 10px;
     }
     .icon-container{
         flex-direction: column;
