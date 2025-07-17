@@ -82,6 +82,7 @@ padding: 50px 240px 0;
     align-items: center;
     gap: 24px;
     text-align: center;
+    
 }
 .featured .img-card{
     display: flex;
@@ -167,8 +168,10 @@ padding: 50px 240px 0;
         width: 90%;
         align-items: center;
     }
-    .featured .img-container{
-        text-align: center;
+    .featured .img-card{
+        width: 350px;
+        height: 438px;
+        
     }
     .icon-container{
         flex-direction: column;
