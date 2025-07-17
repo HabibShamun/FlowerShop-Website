@@ -7,6 +7,10 @@
 }
 
 /* sahred style */
+.main-margin{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .btn-primary{
     background-color:rgba(229, 84, 115, 1) ;
     padding: 20px 43px;
@@ -52,10 +56,7 @@ padding: 50px 240px 0;
   margin-bottom: 32px;
 }
 /* main*/
-main{
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 .featured-content{
     margin: 0 auto;
     text-align: center;
@@ -106,6 +107,35 @@ main{
 .featured img{
     max-width: 70%;
 }
+/* sales */
+.sales{
+    background-color:rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sales-container{
+    display: flex;
+    gap: 186px;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+.sales-content{
+    max-width: 594px;
+}
+.sales-container h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.sales-container p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+#sales-inline-style{
+    color: rgba(229, 84, 115, 1);
+}
 
 /* icon*/
 .icon-container{
@@ -127,7 +157,9 @@ main{
         flex-direction: column;
         padding: 0;
     }
-    
+    .sales-container{
+        flex-direction: column;
+    }
      
     .featured .img-container{
         flex-direction: column;
