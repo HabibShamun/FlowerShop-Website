@@ -137,6 +137,26 @@ padding: 50px 240px 0;
 #sales-inline-style{
     color: rgba(229, 84, 115, 1);
 }
+/*instagram*/
+.instagram{
+    text-align: center;
+    margin: 128px auto;
+}
+.instagram h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.instagram p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.instagram .img-container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
 
 /* icon*/
 .icon-container{
@@ -177,5 +197,9 @@ padding: 50px 240px 0;
         flex-direction: column;
         align-items: center;
         gap: 60px;
+    }
+    .instagram .img-card{
+        grid-template-rows: repeat(1,1fr);
+        gap: 20px;
     }
 }
