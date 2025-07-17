@@ -164,6 +164,8 @@ padding: 50px 240px 0;
     .featured .img-container{
         flex-direction: column;
         justify-content: center;
+        width: 90%;
+        align-items: center;
     }
     .featured .img-container{
         text-align: center;
