@@ -106,6 +106,21 @@ main{
 .featured img{
     max-width: 70%;
 }
+
+/* icon*/
+.icon-container{
+     max-width: 1440px;
+    margin: 128px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 86px 175px;
+   
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+}
+.icon-card{
+    text-align: center;
+}
 /* responsive */
 @media  screen and (max-width:576px) {
     .banner{
@@ -120,5 +135,9 @@ main{
     }
     .featured .img-container{
         text-align: center;
+    }
+    .icon-container{
+        flex-direction: column;
+        gap: 60px;
     }
 }
